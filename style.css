@@ -39,6 +39,7 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(180deg, #3366ff, #99afff, #ffffff, #ff944d, #ff6600);
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +57,20 @@ body{
 }
 span{
     font-size: 4vmin;
+}
+
+@media only screen and (max-width: 600px){
+   *{
+    overflow: hidden;
+   }
+   .paper{
+    height: fit-content;
+   }
+   .timeCountdown{
+    flex-direction: column;
+   }
+   .timeCountdown div p {
+    font-size: 28px;
+    margin-bottom: 3px;
+}
 }
