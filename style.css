@@ -1,7 +1,19 @@
 
+@import url(https://db.onlinewebfonts.com/c/291dd4cac7086ae97e8b5eeba831d37f?family=Bella+Sans+Regular);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display&display=swap');
+
+@font-face {
+    font-family: "Bella Sans Regular";
+    src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot");
+    src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.svg#Bella Sans Regular")format("svg");
+}
+
 body{
     margin: 0;
-   
 }
 .footerContainer{
     margin: 0;
@@ -21,6 +33,7 @@ body{
 }
 .timeCountdown{
     display: flex;
+    
 }
 .timeCountdown div{
     margin: 8vw;
@@ -28,6 +41,10 @@ body{
 .timeCountdown div p{
     font-size: 60px;
     margin-bottom: -14px;
+    font-family: "Bella Sans Regular";
+}
+.timeCountdown span{
+    font-family: "Libre Caslon Display", serif;
 }
 .paper{
     background-color: white;
@@ -53,6 +70,7 @@ body{
         h1{
             margin: 0;
             font-size: 12vmin;
+            font-family: "Libre Caslon Display", serif;
         }
 }
 span{
