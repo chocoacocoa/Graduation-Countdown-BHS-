@@ -1,0 +1,59 @@
+
+body{
+    margin: 0;
+   
+}
+.footerContainer{
+    margin: 0;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    margin-inline: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerContainer p {
+    font-size: 3vmin;
+    color: black;
+    opacity: 50%;
+}
+.timeCountdown{
+    display: flex;
+}
+.timeCountdown div{
+    margin: 8vw;
+}
+.timeCountdown div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+}
+.paper{
+    background-color: white;
+    width: fit-content;
+    height: 50vh;
+    border-radius: 10px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, #3366ff, #99afff, #ffffff, #ff944d, #ff6600);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titleCard{
+        text-align: center;
+        margin-bottom: 2vh;
+        font-size: 3vmin;
+        h1{
+            margin: 0;
+            font-size: 12vmin;
+        }
+}
+span{
+    font-size: 4vmin;
+}
