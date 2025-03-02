@@ -1,114 +1,128 @@
-
 @import url(https://db.onlinewebfonts.com/c/291dd4cac7086ae97e8b5eeba831d37f?family=Bella+Sans+Regular);
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display&display=swap");
 
 @font-face {
-    font-family: "Bella Sans Regular";
-    src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot");
-    src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.svg#Bella Sans Regular")format("svg");
+  font-family: "Bella Sans Regular";
+  src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot");
+  src: url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/291dd4cac7086ae97e8b5eeba831d37f.svg#Bella Sans Regular")
+      format("svg");
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 }
 .footerContainer {
-    margin: 0px;
-    height: 10vh;
-    width: 100vw;
-    bottom: 0px;
-    margin-inline: 0px;
-    display: flex;
-;
-    background-color: rgb(255, 102, 0);
-    flex-direction: row;
-    justify-content: center;
+  margin: 0px;
+  height: 10vh;
+  width: 100vw;
+  bottom: 0px;
+  margin-inline: 0px;
+  display: flex;
+  background-color: rgb(255, 102, 0);
+  flex-direction: row;
+  justify-content: center;
 }
 .footerContainer p {
-    font-size: 3vmin;
-    color: black;
-    opacity: 50%;
+  font-size: 3vmin;
+  color: black;
+  opacity: 50%;
 }
-.timeCountdown{
-    display: flex;
-    
+.timeCountdown {
+  display: flex;
 }
-.timeCountdown div{
-    margin: 8vw;
+.timeCountdown div {
+  margin: 8vw;
 }
-.timeCountdown div p{
-    font-size: 18vmin;
-    margin-bottom: -14px;
-    font-family: "Bella Sans Regular";
-    margin-top: 0;
+.timeCountdown div p {
+  font-size: 18vmin;
+  margin-bottom: -14px;
+  font-family: "Bella Sans Regular";
+  margin-top: 0;
 }
-.timeCountdown span{
+.timeCountdown span {
+  font-family: "Libre Caslon Display", serif;
+}
+.paper {
+  background-color: white;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 10px;
+}
+.container {
+  width: 100vw;
+  height: 90vh;
+  background: linear-gradient(
+    180deg,
+    #3366ff,
+    #99afff,
+    #ffffff,
+    #ff944d,
+    #ff6600
+  );
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titleCard {
+  text-align: center;
+  margin-bottom: 2vh;
+  font-size: 3vmin;
+  h1 {
+    margin: 0;
+    font-size: 12vmin;
     font-family: "Libre Caslon Display", serif;
+  }
 }
-.paper{
-    background-color: white;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 10px;
-}
-.container{
-    width: 100vw;
-    height: 90vh;
-    background: linear-gradient(180deg, #3366ff, #99afff, #ffffff, #ff944d, #ff6600);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-.titleCard{
-        text-align: center;
-        margin-bottom: 2vh;
-        font-size: 3vmin;
-        h1{
-            margin: 0;
-            font-size: 12vmin;
-            font-family: "Libre Caslon Display", serif;
-        }
-}
-span{
-    font-size: 4vmin;
+span {
+  font-size: 4vmin;
 }
 
-@media only screen and (max-width: 600px){
-   *{
+@media only screen and (max-width: 600px) {
+  * {
     overflow: hidden;
-   }
-   .paper{
+  }
+  .paper {
     height: fit-content;
-   }
-   .timeCountdown{
+  }
+  .timeCountdown {
     flex-direction: column;
-   }
-   .timeCountdown div p {
+  }
+  .timeCountdown div p {
     font-size: 28px;
     margin-bottom: 3px;
     text-align: center;
-}
-.timeCountdown span{
+  }
+  .timeCountdown span {
     text-align: center;
-
-}
-.footerContainer {
+  }
+  .footerContainer {
     margin: 0px;
     height: 10vh;
     width: 100vw;
     bottom: 0px;
     margin-inline: 0px;
-    display: flex
-;
+    display: flex;
     background-color: rgb(255, 102, 0);
     justify-content: space-evenly;
     flex-direction: row;
     align-items: flex-end;
+  }
 }
+.footerDiv {
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
 }
